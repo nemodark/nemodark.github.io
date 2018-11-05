@@ -1,0 +1,34 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Damion');
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+
+body {
+  font-family: 'Bellefair', serif;
+  font-size: 16px;
+}
+
+.bg-dashboard {
+  background-color: #3949ab;
+
+}
+
+a.navbar-brand {
+  font-family: 'Damion', cursive;
+  font-size: 2em;
+  font-weight: bold;
+  margin: -10px 0 0 0;
+}
+
+nav.navbar {
+  font-family: 'Bellefair', serif;
+  font-size: 1.3em;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+
+  .dropdown-menu a {
+    font-size: 1.3em;
+  }
+}
+
+#main-header {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+}
